@@ -21,14 +21,14 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 # ________________________________________________________________________________#
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID",-1002734717816))
+LOGGER_ID = int(getenv("LOGGER_ID",-1002014882444))
 # ________________________________________________________________________________#
 # Get this value from  on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID"))
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "AAROHI_MUSICBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MehakMusicBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "𝐒ᴘᴏᴛɪғʏ ꭙ 𝐌ᴜsɪᴄ")
+BOT_NAME = getenv("BOT_NAME" , "Mehak Music")
 # ________________________________________________________________________________#
 # Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -45,8 +45,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 # ________________________________________________________________________________#
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THUNDERDEVS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+E8x1hf2jWBQ0ZDg1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jani_RP")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7ROq61PIXmE5NmU1")
 # ________________________________________________________________________________#
 # Set this to True if you want the assistant to automatically leave chats
 # after an interval
@@ -100,12 +100,12 @@ confirmer = {}
 
 START_IMG_URL = getenv(
     "START_IMG_URL",
-    "https://files.catbox.moe/kt24bv.jpg",
+    "https://files.catbox.moe/h1z7dr.jpg",
 )
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://files.catbox.moe/6000zj.jpg",
+    "https://files.catbox.moe/h1z7dr.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
