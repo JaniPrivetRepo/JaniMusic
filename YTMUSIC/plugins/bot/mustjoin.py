@@ -5,7 +5,7 @@ from YTMUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "THUNDERDEVS"
+MUST_JOIN = "ll_ISTKHAR_ll"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
